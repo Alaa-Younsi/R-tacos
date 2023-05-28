@@ -146,7 +146,7 @@ html, body {
 @media screen and (max-width: 600px) {
     #Info-text {
         color: white;
-        font-size: 14px;
+        font-size: 13px;
         position: absolute;
         top: 40%; 
         left: 12%;
