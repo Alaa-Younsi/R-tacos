@@ -192,7 +192,7 @@ html, body {
 @media screen and (max-width: 600px) {
     #Content {
         background-color: transparent;
-        width: 94%;
+        width: 92%;
         position: absolute;
         top: 10%;
         left: 5.5%;
