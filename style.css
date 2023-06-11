@@ -1,3 +1,4 @@
+
 *,*:before,*:after {
     display: flexbox;
     box-sizing: inherit;
@@ -520,6 +521,81 @@ html, body {
         display: none;
     }
 }
+
+#Contact {
+    width: 100%;
+    display: none;
+}
+
+.ctext1, .ctext3 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .ctext1, .ctext3 {
+        font-size: 20px;
+    }
+}
+
+.ctext2, .ctext4 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: #383838;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    .ctext2, .ctext4 {
+        font-size: 18px;
+        margin-left: 5%;
+    }
+}
+
+#Email {
+    width: 20%;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 5%;
+    background: linear-gradient(
+        445deg,
+        #FF7F50,
+        #DC143C
+    );
+    border: none;
+    border-radius: 5%;
+    box-shadow: 1px 1px 3px black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    #Email {
+        width: 25%;
+        height: 40px;
+        margin-left: 38%;
+        margin-top: 5%;
+        font-size: 12px;
+    }
+}
+
+#Email:hover {
+    background: linear-gradient(
+        45deg,
+        white,
+        gray
+    )
+}
+
+#Email1 {
+    text-decoration: none;
+    color: black;
+}
+
 
 
 
