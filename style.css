@@ -296,6 +296,7 @@ html, body {
     #Text1 {
         font-size: 30px;
         margin-left: 10%;
+        margin-bottom: 35%;
     }
 }
 
@@ -316,17 +317,17 @@ html, body {
 }
 
 #Text2 {
-    font-size: 35px;
+    font-size: 45px;
     font-style: italic;
     text-align: center;
     margin-top: 40%;
-    margin-bottom: 40%;   
+    margin-bottom: 20%;   
 }
 
 @media screen and (max-width: 600px) {
     #Text2 {
         font-size: 25px;
-        margin: 70% 0 70% 5%;
+        margin: 70% 0 30% 5%;
     }
 }
 
@@ -346,17 +347,17 @@ html, body {
 }
 
 #Text3 {
-    font-size: 35px;
+    font-size: 45px;
     font-style: italic;
     text-align: center;
-    margin-top: 45%;
-    margin-bottom: 45%;
+    margin-top: 30%;
+    margin-bottom: 20%;
 }
 
 @media screen and (max-width: 600px) {
     #Text3 {
         font-size: 25px;
-        margin: 60% 0 60% 0;
+        margin: 30% 0 20% 0;
     }
 }
 
@@ -369,7 +370,7 @@ html, body {
     height: 400px;
     border-radius: 15%;
     object-fit: cover;
-    margin-left: 1%;
+    margin-left: 10%;
     margin-top: 10%;
 }
 
@@ -380,23 +381,23 @@ html, body {
 }
 
 #Text4 {
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
     font-style: italic;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: 30%;
+    margin-bottom: 20%;
 }
 
 @media screen and (max-width: 600px) {
     #Text4 {
         font-size: 25px;
-        margin: 50% 0 50% 5%;
+        margin: 30% 0 20% 5%;
     }
 }
 
 .image9 {
     width: 80%;
-    height: 300px;
+    height: 400px;
     border-radius: 15%;
     object-fit: cover;
     margin-left: 10%;
@@ -410,9 +411,11 @@ html, body {
 }
 
 #Text5 {
-    font-size: 35px;
+    font-size: 45px;
     font-style: italic;
     text-align: center;
+    margin-top: 30%;
+    margin-bottom: 20%;
 }
 
 @media screen and (max-width: 600px) {
@@ -423,11 +426,12 @@ html, body {
 
 .image12 {
     width: 80%;
-    height: 300px;
+    height: 400px;
     border-radius: 15%;
     object-fit: cover;
     margin-left: 10%;
     margin-top: 10%;
+    margin-bottom: 20%;
 }
 
 @media screen and (max-width: 600px) {
