@@ -55,6 +55,36 @@
         $("#Service").fadeOut(1);
       });
   });
+  
+  $(document).ready(function(){
+
+    $(".avis-bar").click(function(){
+        $("#Contact").fadeIn(1);
+      });
+  });
+
+  $(document).ready(function(){
+
+    $(".menu-bar").click(function(){
+        $("#Contact").fadeOut(1);
+      });
+  });
+
+  $(document).ready(function(){
+
+    $(".service-bar").click(function(){
+        $("#Contact").fadeOut(1);
+      });
+  });
+
+  $(document).ready(function(){
+
+    $(".order-bar").click(function(){
+        $("#Contact").fadeOut(1);
+      });
+  });
+
+  
 
   $(document).ready(function(){
 
