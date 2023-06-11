@@ -1,5 +1,5 @@
 
-  $(document).ready(function(){
+    $(document).ready(function(){
 
     $(".menu-bar").click(function(){
         $("#Menu").fadeIn(1);
@@ -56,3 +56,38 @@
         $("#Service").fadeOut(1);
       });
   });
+
+  $(document).ready(function(){
+
+        $("#Front-page").fadeOut(8000);
+  });
+
+  $(document).ready(function(){
+
+    $("#Fp-image").fadeIn(500);
+});
+
+$(document).ready(function(){
+
+  $("#Fp-title").fadeIn(1000);
+});
+
+$(document).ready(function(){
+
+  $("#Fp-image").fadeOut(3500);
+});
+
+$(document).ready(function(){
+
+  $("#Fp-title").fadeOut(3500);
+});
+
+$(document).ready(function(){
+
+  $("#Fp-text").fadeIn(1500);
+});
+
+$(document).ready(function(){
+
+  $("#Fp-text").fadeOut(3500);
+});
