@@ -1,5 +1,4 @@
-
-    $(document).ready(function(){
+  $(document).ready(function(){
 
     $(".menu-bar").click(function(){
         $("#Menu").fadeIn(1);
@@ -59,7 +58,7 @@
 
   $(document).ready(function(){
 
-        $("#Front-page").fadeOut(8000);
+        $("#Front-page").fadeOut(6000);
   });
 
   $(document).ready(function(){
