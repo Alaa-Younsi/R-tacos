@@ -770,7 +770,7 @@ html, body {
         font-size: 30px;
         position: absolute;
         top: 30%;
-        left: 50%;
+        left: 48%;
     }
 }
 
@@ -787,7 +787,7 @@ html, body {
         width: 30%;
         position: absolute;
         top: 28%;
-        left: 20%;
+        left: 18%;
         display: none;
     }
 }
@@ -808,7 +808,7 @@ html, body {
         font-size: 18px;
         position: absolute;
         top: 43%;
-        left: 23.5%;
+        left: 21.5%;
         display: none;
     }
 }
