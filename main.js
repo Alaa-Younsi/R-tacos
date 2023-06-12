@@ -88,7 +88,7 @@
 
   $(document).ready(function(){
 
-        $("#Front-page").fadeOut(6000);
+        $("#Front-page").fadeOut(5000);
   });
 
   $(document).ready(function(){
