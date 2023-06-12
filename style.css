@@ -36,7 +36,7 @@ html, body {
 #Title1 {
     color: white;
     font-size: 60px;
-    margin-top: 30px;
+    margin-top: 25px;
     font-style: italic;
 }
 
@@ -44,6 +44,27 @@ html, body {
     #Title1 {
         font-size: 30px;
         margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #Title1 {
+        font-size: 30px;
+        margin-top: 35px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #Title1 {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #Title1 {
+        font-size: 60px;
+        margin-top: 25px;
     }
 }
 
@@ -57,6 +78,27 @@ html, body {
     #Title2 {
         font-size: 20px;
         margin-top: -26%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #Title2 {
+        font-size: 20px;
+        margin-top: -26%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #Title2 {
+        font-size: 30px;
+        margin-top: -26%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #Title2 {
+        font-size: 40px;
+        margin-top: -30%;
     }
 }
 
@@ -79,6 +121,38 @@ html, body {
         margin-right: 5%;
     }
 }
+
+@media screen and (min-width: 600px) {
+    .image1 {
+        width: 35%;
+        height: 50%;
+        margin-top: 15%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .image1 {
+        width: 35%;
+        height: 65%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .image1 {
+        width: 35%;
+        height: 100%;
+        border-radius: 50%;
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-top: 0;
+    }
+}
+
 
 #Loc {
     background-color: black;
@@ -218,7 +292,6 @@ html, body {
     border-bottom: 2px solid red;
     text-align: center;
     background-color: black;
-
 }
 
 .bar:hover {
@@ -234,6 +307,24 @@ html, body {
 @media screen and (max-width: 600px) {
     #Menu-bar, #Service-bar, #Avis-bar, #Order-bar {
         font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #Menu-bar, #Service-bar, #Avis-bar, #Order-bar {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #Menu-bar, #Service-bar, #Avis-bar, #Order-bar {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #Menu-bar, #Service-bar, #Avis-bar, #Order-bar {
+        font-size: 18px;
     }
 }
 
@@ -271,6 +362,28 @@ html, body {
     }
 }
 
+@media screen and (min-width: 600px) {
+    .image5 {
+        height: 300px;
+        margin-top: 20%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .image5 {
+        height: 400px;
+        margin-top: 20%;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .image5 {
+        height: 550px;
+        margin-top: 6%;
+    }
+}
+
 #Text1 {
     font-size: 50px;
     margin-top: 45%;
@@ -283,6 +396,24 @@ html, body {
         font-size: 30px;
         margin-left: 10%;
         margin-bottom: 35%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #Text1 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #Text1 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #Text1 {
+        font-size: 50px;
     }
 }
 
@@ -302,6 +433,24 @@ html, body {
     }
 }
 
+@media screen and (min-width: 600px) {
+    .image6 {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .image6 {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .image6 {
+        height: 300px;
+    }
+}
+
 #Text2 {
     font-size: 45px;
     font-style: italic;
@@ -314,6 +463,30 @@ html, body {
     #Text2 {
         font-size: 25px;
         margin: 70% 0 30% 5%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #Text2 {
+        font-size: 35px;
+        margin-top: 70%;
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #Text2 {
+        font-size: 40px;
+        margin-top: 50%;
+        margin-bottom: 35%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #Text2 {
+        font-size: 45px;
+        margin-top: 40%;
+        margin-bottom: 20%;   
     }
 }
 
@@ -332,6 +505,24 @@ html, body {
     }
 }
 
+@media screen and (min-width: 600px) {
+    .image7 {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .image7 {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .image7 {
+        height: 400px;
+    }
+}
+
 #Text3 {
     font-size: 45px;
     font-style: italic;
@@ -344,6 +535,30 @@ html, body {
     #Text3 {
         font-size: 25px;
         margin: 30% 0 20% 0;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #Text3 {
+        font-size: 35px;
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #Text3 {
+        font-size: 40px;
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #Text3 {
+        font-size: 45px;
+        margin-top: 30%;
+        margin-bottom: 20%;
     }
 }
 
@@ -366,6 +581,24 @@ html, body {
     }
 }
 
+@media screen and (min-width: 600px) {
+    .image8 {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .image8 {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .image8 {
+        height: 400px;
+    }
+}
+
 #Text4 {
     font-size: 45px;
     text-align: center;
@@ -378,6 +611,30 @@ html, body {
     #Text4 {
         font-size: 25px;
         margin: 30% 0 20% 5%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #Text4 {
+        font-size: 35px;
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #Text4 {
+        font-size: 40px;
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #Text4 {
+        font-size: 45px;
+        margin-top: 30%;
+        margin-bottom: 20%;
     }
 }
 
@@ -396,6 +653,24 @@ html, body {
     }
 }
 
+@media screen and (min-width: 600px) {
+    .image9 {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .image9 {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .image9 {
+        height: 400px;
+    }
+}
+
 #Text5 {
     font-size: 45px;
     font-style: italic;
@@ -407,6 +682,24 @@ html, body {
 @media screen and (max-width: 600px) {
     #Text5 {
         font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #Text5 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #Text5 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #Text5 {
+        font-size: 45px;
     }
 }
 
@@ -423,6 +716,24 @@ html, body {
 @media screen and (max-width: 600px) {
     .image12 {
         height: 200px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .image12 {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .image12 {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .image12 {
+        height: 400px;
     }
 }
 
@@ -520,6 +831,24 @@ html, body {
     }
 }
 
+@media screen and (min-width: 600px) {
+    .ctext1, .ctext3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .ctext1, .ctext3 {
+        font-size: 33px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ctext1, .ctext3 {
+        font-size: 40px;
+    }
+}
+
 .ctext2, .ctext4 {
     font-size: 30px;
     font-style: italic;
@@ -532,6 +861,27 @@ html, body {
 @media screen and (max-width: 600px) {
     .ctext2, .ctext4 {
         font-size: 18px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .ctext2, .ctext4 {
+        font-size: 22px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .ctext2, .ctext4 {
+        font-size: 26px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ctext2, .ctext4 {
+        font-size: 30px;
         margin-left: 5%;
     }
 }
@@ -560,6 +910,24 @@ html, body {
         margin-left: 38%;
         margin-top: 5%;
         font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #Email {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #Email {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #Email {
+        font-size: 16px;
     }
 }
 
