@@ -28,6 +28,9 @@
       });
   });
 
+
+
+
   $(document).ready(function(){
 
     $(".service-bar").click(function(){
@@ -55,6 +58,9 @@
         $("#Service").fadeOut(1);
       });
   });
+
+
+
   
   $(document).ready(function(){
 
@@ -84,11 +90,41 @@
       });
   });
 
+
+
+  $(document).ready(function(){
+
+    $(".order-bar").click(function(){
+        $("#Avis").fadeIn(1);
+      });
+  });
+
+  $(document).ready(function(){
+
+    $(".menu-bar").click(function(){
+        $("#Avis").fadeOut(1);
+      });
+  });
+
+  $(document).ready(function(){
+
+    $(".service-bar").click(function(){
+        $("#Avis").fadeOut(1);
+      });
+  });
+
+  $(document).ready(function(){
+
+    $(".avis-bar").click(function(){
+        $("#Avis").fadeOut(1);
+      });
+  });
+
   
 
   $(document).ready(function(){
 
-        $("#Front-page").fadeOut(5000);
+        $("#Front-page").fadeOut(4000);
   });
 
   $(document).ready(function(){
